@@ -25,3 +25,10 @@ variable "ec2_block_storage_size" {
   default     = 8
   type = number
 }
+
+variable "env" {
+  default = "dev"
+  description = "The environment for the infrastructure"
+  type        = string
+  
+}
